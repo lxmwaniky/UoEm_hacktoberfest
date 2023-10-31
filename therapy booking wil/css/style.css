@@ -1,0 +1,28 @@
+body {
+  scroll-behavior: smooth;
+}
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+  list-style-type: none;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  margin: auto;
+  font-family: "Raleway", "Lato";
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Raleway&display=swap");
+
+body {
+  background-color: #eeeeee;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 365px;
+  height: 40px;
+  margin-top: 5px;
+  border: 1px solid rgb(58, 58, 58);
+  border-radius: 5px;
+}
