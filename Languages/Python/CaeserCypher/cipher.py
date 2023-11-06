@@ -1,4 +1,4 @@
-def encrypt(payload, shift)
+def encrypt(payload, shift):
     result = ""
 
     #traverse text
