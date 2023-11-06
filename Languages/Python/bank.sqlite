@@ -1,4 +1,0 @@
-CREATE TABLE Users(Name, Password);
-CREATE TABLE Messages(Name, Message);
-CREATE TABLE Balance(Name, Balance);
-CREATE TABLE Loan(Name, Loan);
