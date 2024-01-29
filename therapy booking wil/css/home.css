@@ -1,0 +1,26 @@
+#leftdiv,
+#rightdiv {
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+}
+
+#leftdiv {
+  justify-content: left;
+}
+
+#rightdiv {
+  background-color: white;
+  border-radius: 20px 0 0 20px;
+  justify-content: center;
+}
+
+#hey {
+  color: white;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+#hey span {
+  color: white;
+}

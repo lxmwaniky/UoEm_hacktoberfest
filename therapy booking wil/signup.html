@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Signin</title>
+    <title>Login</title>
     <link rel="stylesheet" href="./css/style.css" />
     <script src="./js/login.js" defer></script>
   </head>
@@ -14,15 +14,17 @@
     </div>
 
     <div style="padding-top: 20px; margin: auto; width: fit-content; height: auto;">
-      <h2 style="color: #248746; text-align: center;">Welcome</h5>
-        <p style="font-size: 80%;  padding-top: 5px;">Please enter your information below to sign in to your account</p>
+      <h2 style="color: #248746; text-align: center;">Create a new account</h5>
+        <p style="font-size: 80%;  padding-top: 5px;">Please enter your information below to create a new account</p>
         <br>
         <form action="">
+          <p>Name</p>
+          <input type="text" name="" id=""> <br><br>
           <p>Email</p>
           <input type="email" name="" id=""> <br> <br>
           <p>Password</p>
           <input type="password" name="" id="pwd"> <br> <br>
-          <input type="checkbox" onclick="showPassword()" > Show Password <br> <br>
+          <input type="checkbox" onclick="showPassword()" >Show Password <br> <br>
   
           <div style="display: flex;font-size: 80%; justify-content: space-between;">
               <div>
@@ -30,15 +32,13 @@
                   <span>Remember me</span>
               </div>
               <div>
-                  <a href="#">Forgot Password</a>
+                  <span><a href="#">Forgot Password</a></span>
               </div>
           </div>
-          <input type="submit" name="" id="" value="Sign In"> <br> <br>
+          <input type="submit" name="" id="" value="Create account"> <br> <br>
         </form>
 
-        <p style="text-align: center; font-size: 80%;">Don't have an account?
-          <a href="">Sign Up</span>
-        </p>
+        <p style="text-align: center; font-size: 80%;">Already have an account? <span style="color: #248746;">Sign In</span></p>
         
     </div>
   </body>
